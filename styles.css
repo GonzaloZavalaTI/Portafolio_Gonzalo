@@ -347,3 +347,32 @@ button:focus-visible {
     animation-iteration-count: 1 !important;
   }
 }
+
+/* ===== 11. Barras de progreso de habilidades ===== */
+.habilidad-progreso {
+  margin-bottom: 1.25rem;
+}
+
+.habilidad-progreso:last-child {
+  margin-bottom: 0;
+}
+
+.habilidad-progreso > .d-flex {
+  margin-bottom: 0.45rem;
+  color: var(--color-titulos);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.habilidad-progreso .progress {
+  height: 9px;
+  overflow: hidden;
+  background-color: #e2e8f0;
+  border-radius: 20px;
+}
+
+.habilidad-progreso .progress-bar {
+  background-color: var(--color-principal);
+  border-radius: 20px;
+  transition: width 1s ease;
+}
