@@ -10,8 +10,8 @@
     <title>Gonzalo Zavala | Portafolio profesional</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -42,7 +42,8 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center g-5">
                     <div class="col-12 col-md-5 text-center">
-                        <img src="foto.jpg" class="imagen-perfil img-fluid" alt="Fotografía de Gonzalo Zavala">
+                        <img src="foto.jpg" class="imagen-perfil img-fluid rounded-circle"
+                            alt="Fotografía de Gonzalo Zavala">
                     </div>
                     <div class="col-12 col-md-7">
                         <p class="texto-destacado">Estudiante de Ingeniería en TI</p>
@@ -53,9 +54,20 @@
                             aprendiendo y aplicar mis conocimientos en proyectos reales.
                         </p>
                         <div class="d-flex flex-wrap gap-3 botones-presentacion">
-                            <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+                            <a href="#proyectos" class="btn btn-primary">
+                                Ver proyectos
+                            </a>
+
                             <a href="cv-gonzalo-zavala.pdf" class="btn btn-outline-primary" target="_blank"
-                                rel="noopener noreferrer">Consultar CV</a>
+                                rel="noopener noreferrer">
+                                <i class="bi bi-eye" aria-hidden="true"></i>
+                                Visualizar CV
+                            </a>
+
+                            <a href="cv-gonzalo-zavala.pdf" class="btn btn-primary" download="CV-Gonzalo-Zavala.pdf">
+                                <i class="bi bi-download" aria-hidden="true"></i>
+                                Descargar CV
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -98,7 +110,7 @@
                 </div>
 
                 <div class="row g-4">
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <article class="tarjeta-habilidad h-100">
                             <h3>Desarrollo web</h3>
 
@@ -159,7 +171,7 @@
                         </article>
                     </div>
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <article class="tarjeta-habilidad h-100">
                             <h3>Programación y bases de datos</h3>
 
@@ -209,7 +221,7 @@
                         </article>
                     </div>
 
-                    <div class="col-12 col-md-6">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <article class="tarjeta-habilidad h-100">
                             <h3>Redes informáticas</h3>
 
@@ -248,45 +260,6 @@
                             </div>
                         </article>
                     </div>
-
-                    <div class="col-12 col-md-6">
-                        <article class="tarjeta-habilidad h-100">
-                            <h3>Herramientas y soporte</h3>
-
-                            <div class="habilidad-progreso">
-                                <div class="d-flex justify-content-between">
-                                    <label for="progreso-soporte">Soporte técnico</label>
-                                    <span>60%</span>
-                                </div>
-                                <div class="progress" role="progressbar" aria-label="Experiencia en soporte técnico"
-                                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
-                                    <div id="progreso-soporte" class="progress-bar" style="width: 60%"></div>
-                                </div>
-                            </div>
-
-                            <div class="habilidad-progreso">
-                                <div class="d-flex justify-content-between">
-                                    <label for="progreso-office">Microsoft Office</label>
-                                    <span>75%</span>
-                                </div>
-                                <div class="progress" role="progressbar" aria-label="Conocimiento de Microsoft Office"
-                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                                    <div id="progreso-office" class="progress-bar" style="width: 75%"></div>
-                                </div>
-                            </div>
-
-                            <div class="habilidad-progreso">
-                                <div class="d-flex justify-content-between">
-                                    <label for="progreso-xampp">XAMPP</label>
-                                    <span>45%</span>
-                                </div>
-                                <div class="progress" role="progressbar" aria-label="Conocimiento de XAMPP"
-                                    aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
-                                    <div id="progreso-xampp" class="progress-bar" style="width: 45%"></div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
                 </div>
             </div>
         </section>
@@ -303,9 +276,9 @@
                 </div>
 
                 <div class="row g-4">
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-4">
                         <article class="tarjeta-proyecto h-100">
-                            <div class="contenido-tarjeta">
+                            <div class="card-body contenido-tarjeta">
                                 <h3>Mundo de Papel</h3>
                                 <p class="tecnologias-proyecto">HTML · CSS · PHP · MySQL</p>
                                 <p class="descripcion-proyecto">
@@ -316,9 +289,9 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-4">
                         <article class="tarjeta-proyecto h-100">
-                            <div class="contenido-tarjeta">
+                            <div class="card-body contenido-tarjeta">
                                 <h3>Simulador de cajero automático</h3>
                                 <p class="tecnologias-proyecto">C++ · POO</p>
                                 <p class="descripcion-proyecto">
@@ -329,9 +302,9 @@
                             </div>
                         </article>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-4">
                         <article class="tarjeta-proyecto h-100">
-                            <div class="contenido-tarjeta">
+                            <div class="card-body contenido-tarjeta">
                                 <h3>Gestión de inventario</h3>
                                 <p class="tecnologias-proyecto">C++ · Estructuras de datos</p>
                                 <p class="descripcion-proyecto">
@@ -354,15 +327,16 @@
                 <div class="row g-4">
                     <div class="col-12 col-lg-6">
                         <article class="tarjeta-informacion h-100">
-                            <h3>Formación académica</h3>
-                            <p><strong>Ingeniería en Tecnologías de la Información</strong></p>
-                            <p>Universidad de las Fuerzas Armadas ESPE</p>
-                            <p><strong>Cursos complementarios</strong></p>
-                            <ul>
-                                <li>Desarrollo con IA: de 0 a Producción — BIG school.</li>
-                                <li>Scrum Fundamentals — SCRUMstudy.</li>
-                            </ul>
-                            <p><strong>Idiomas:</strong> inglés, nivel B1.</p>
+                            <div class="card-body">
+                                <h3>Formación académica</h3>
+                                <p><strong>Ingeniería en Tecnologías de la Información</strong></p>
+                                <p>Universidad de las Fuerzas Armadas ESPE</p>
+                                <p><strong>Cursos complementarios</strong></p>
+                                <ul>
+                                    <li>Desarrollo con IA: de 0 a Producción — BIG school.</li>
+                                    <li>Scrum Fundamentals — SCRUMstudy.</li>
+                                </ul>
+                                <p><strong>Idiomas:</strong> inglés, nivel B1.</p>
                         </article>
                     </div>
                     <div class="col-12 col-lg-6">
