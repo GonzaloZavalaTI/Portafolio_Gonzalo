@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portafolio profesional de Gonzalo Zavala, estudiante de Ingeniería en Tecnologías de la Información.">
+    <meta name="author" content="Gonzalo Zavala">
+    <title>Gonzalo Zavala | Portafolio profesional</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg barra-navegacion sticky-top">
+            <div class="container">
+                <a class="navbar-brand marca-personal" href="#inicio">Gonzalo Zavala</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-navegacion"
+                    aria-controls="menu-navegacion" aria-expanded="false" aria-label="Abrir menú de navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu-navegacion">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#formacion">Formación</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="seccion-presentacion">
+            <div class="container">
+                <div class="row align-items-center justify-content-center g-5">
+                    <div class="col-12 col-md-5 text-center">
+                        <img src="foto.jpg" class="imagen-perfil img-fluid" alt="Fotografía de Gonzalo Zavala">
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <p class="texto-destacado">Estudiante de Ingeniería en TI</p>
+                        <h1 class="titulo-presentacion">Hola, soy <span>Gonzalo Zavala</span></h1>
+                        <p class="descripcion-presentacion">
+                            Me interesa el desarrollo de software, las tecnologías web,
+                            las redes informáticas y el soporte técnico. Busco seguir
+                            aprendiendo y aplicar mis conocimientos en proyectos reales.
+                        </p>
+                        <div class="d-flex flex-wrap gap-3 botones-presentacion">
+                            <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+                            <a href="cv-gonzalo-zavala.pdf" class="btn btn-outline-primary" target="_blank"
+                                rel="noopener noreferrer">Consultar CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="seccion-contenido">
+            <div class="container">
+                <div class="encabezado-seccion">
+                    <p class="texto-destacado">Conóceme</p>
+                    <h2>Sobre mí</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-9">
+                        <p class="texto-sobre-mi">
+                            Soy estudiante de Ingeniería en Tecnologías de la Información
+                            en la Universidad de las Fuerzas Armadas ESPE, en Ecuador.
+                            He trabajado en proyectos académicos relacionados con
+                            aplicaciones web, bases de datos y programación en C++.
+                        </p>
+                        <p class="texto-sobre-mi">
+                            También tengo experiencia brindando soporte técnico a usuarios,
+                            configurando equipos y realizando mantenimiento básico de
+                            hardware y software. Me interesa fortalecer mis habilidades
+                            tanto en desarrollo como en infraestructura tecnológica.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="seccion-contenido fondo-suave">
+            <div class="container">
+                <div class="encabezado-seccion">
+                    <p class="texto-destacado">Conocimientos</p>
+                    <h2>Habilidades técnicas</h2>
+                    <p class="descripcion-seccion">
+                        Tecnologías y herramientas que he utilizado en actividades
+                        académicas y prácticas.
+                    </p>
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="tarjeta-habilidad h-100">
+                            <h3>Desarrollo web</h3>
+                            <div class="lista-habilidades">
+                                <span class="etiqueta-habilidad">HTML</span>
+                                <span class="etiqueta-habilidad">CSS</span>
+                                <span class="etiqueta-habilidad">JavaScript</span>
+                                <span class="etiqueta-habilidad">Bootstrap</span>
+                                <span class="etiqueta-habilidad">PHP</span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="tarjeta-habilidad h-100">
+                            <h3>Programación y datos</h3>
+                            <div class="lista-habilidades">
+                                <span class="etiqueta-habilidad">Java</span>
+                                <span class="etiqueta-habilidad">C++</span>
+                                <span class="etiqueta-habilidad">MySQL</span>
+                                <span class="etiqueta-habilidad">XAMPP</span>
+                                <span class="etiqueta-habilidad">Git</span>
+                                <span class="etiqueta-habilidad">GitHub</span>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="tarjeta-habilidad h-100">
+                            <h3>Redes y soporte</h3>
+                            <div class="lista-habilidades">
+                                <span class="etiqueta-habilidad">Cisco Packet Tracer</span>
+                                <span class="etiqueta-habilidad">EVE-NG</span>
+                                <span class="etiqueta-habilidad">Routers y switches</span>
+                                <span class="etiqueta-habilidad">Soporte técnico</span>
+                                <span class="etiqueta-habilidad">Microsoft Office</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="seccion-contenido">
+            <div class="container">
+                <div class="encabezado-seccion">
+                    <p class="texto-destacado">Trabajo académico</p>
+                    <h2>Proyectos</h2>
+                    <p class="descripcion-seccion">
+                        Proyectos desarrollados como parte de mi aprendizaje.
+                        No representan aplicaciones publicadas en producción.
+                    </p>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="tarjeta-proyecto h-100">
+                            <div class="contenido-tarjeta">
+                                <h3>Mundo de Papel</h3>
+                                <p class="tecnologias-proyecto">HTML · CSS · PHP · MySQL</p>
+                                <p class="descripcion-proyecto">
+                                    Propuesta de tienda virtual para una librería, con catálogo
+                                    de productos y una base de datos relacional para gestionar
+                                    información de usuarios y libros.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="tarjeta-proyecto h-100">
+                            <div class="contenido-tarjeta">
+                                <h3>Simulador de cajero automático</h3>
+                                <p class="tecnologias-proyecto">C++ · POO</p>
+                                <p class="descripcion-proyecto">
+                                    Programa académico para simular operaciones de un cajero,
+                                    con validación de credenciales, control de operaciones
+                                    y manejo de errores.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <article class="tarjeta-proyecto h-100">
+                            <div class="contenido-tarjeta">
+                                <h3>Gestión de inventario</h3>
+                                <p class="tecnologias-proyecto">C++ · Estructuras de datos</p>
+                                <p class="descripcion-proyecto">
+                                    Aplicación de consola para registrar y consultar productos,
+                                    con operaciones de búsqueda y ordenamiento de información.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="formacion" class="seccion-contenido fondo-suave">
+            <div class="container">
+                <div class="encabezado-seccion">
+                    <p class="texto-destacado">Mi trayectoria</p>
+                    <h2>Formación y experiencia</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-12 col-lg-6">
+                        <article class="tarjeta-informacion h-100">
+                            <h3>Formación académica</h3>
+                            <p><strong>Ingeniería en Tecnologías de la Información</strong></p>
+                            <p>Universidad de las Fuerzas Armadas ESPE</p>
+                            <p><strong>Cursos complementarios</strong></p>
+                            <ul>
+                                <li>Desarrollo con IA: de 0 a Producción — BIG school.</li>
+                                <li>Scrum Fundamentals — SCRUMstudy.</li>
+                            </ul>
+                            <p><strong>Idiomas:</strong> inglés, nivel B1.</p>
+                        </article>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <article class="tarjeta-informacion h-100">
+                            <h3>Soporte técnico independiente</h3>
+                            <p class="texto-destacado">Desde enero de 2024</p>
+                            <p>
+                                Atención y asistencia técnica a clientes particulares,
+                                configuración de equipos, mantenimiento preventivo básico
+                                de hardware y software, y gestión de registros e inventarios
+                                mediante hojas de cálculo.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="seccion-contenido">
+            <div class="container">
+                <div class="encabezado-seccion">
+                    <p class="texto-destacado">Hablemos</p>
+                    <h2>Contacto</h2>
+                    <p class="descripcion-contacto">
+                        Puedes escribirme o consultar mi perfil profesional para conocer
+                        más sobre mi formación y experiencia.
+                    </p>
+                </div>
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <a class="btn btn-primary" href="mailto:gonzalozavala.ti@gmail.com">Enviar correo</a>
+                    <a class="btn btn-outline-primary" href="https://www.linkedin.com/in/gonzalo-zavala-ti/"
+                        target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a class="btn btn-outline-primary" href="https://github.com/GonzaloZavalaTI" target="_blank"
+                        rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <div class="container text-center">
+            <p class="mb-1">Gonzalo Zavala - Portafolio profesional</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
