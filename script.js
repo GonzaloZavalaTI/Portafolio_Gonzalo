@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((response) => response.json())
     .then((data) => {
       console.log("Conexión exitosa. Total de visitas: " + data.total_visitas);
-      // Opcional: Si quieres mostrarlo en tu HTML, crea un <span id="contador"></span> en tu footer.
+      document.getElementById("contador").innerText = data.total_visitas;
     })
     .catch((error) => console.error("Error en la tubería:", error));
 });
